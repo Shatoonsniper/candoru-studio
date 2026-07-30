@@ -30,7 +30,6 @@ with tab2:
         config = load_config()
         if url and url not in config["sources"]:
             config["sources"].append(url)
-            # Сохранение в config.py (позже)
         st.success("Источник добавлен!")
 
 with tab3:
